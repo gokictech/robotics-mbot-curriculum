@@ -97,7 +97,7 @@ Use your rulers to plan the path that your robot has to follow to push the paper
 4. Use the new blocks to code your path.  
     <img src="images/step_09_1.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_09_2.jpg" height="400" alt="Before running mBot forward 1 second">
-    <img src="images/step_09_3.jpg" height="400" alt="Before running mBot forward 1 second">  
+    <img src="images/step_09_3.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_09_4.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_09_5.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_09_6.jpg" height="400" alt="Before running mBot forward 1 second">
