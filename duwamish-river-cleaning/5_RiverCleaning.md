@@ -49,7 +49,7 @@ We will make a ruler with pen and paper to help us plan the path to automate our
         <img src="images/step_02_2.jpg" height="400" alt="After running mBot forward 1 second">
 
 # Circular Ruler
-We will make a circular ruler with pen and paper to help us plan the path to automate our robot. This circular ruller measures how far the robot will turn per second.
+We will make a circular ruler with pen and paper to help us plan the path to automate our robot. This circular ruller measures how far the robot will turn per second:
     1. Place a small tape in front of the 'eyes' (distance sensor)  
         <img src="images/step_03_1.jpg" height="400" alt="Before running mBot forward 1 second">
     2. Using your new 'turn right' block, make the robot turn right for 1 second.
