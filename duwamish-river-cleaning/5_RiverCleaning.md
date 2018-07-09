@@ -30,7 +30,7 @@ This block will turn the car to the right X seconds.
 
 5. Create a ruler with paper and pen to automate robot
     1. Place paper parallel to the robot on the side
-    ![step 1.1](/images/step_01_1.png "Logo Title Text 1")
+    ![step 1.1](images/step_01_1.png "Logo Title Text 1")
     ![step 1.2](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
     2. Mark with pen the location of the 'eyes' (distance sensor)
     3. Code and run algorithm:
