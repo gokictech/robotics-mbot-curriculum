@@ -30,8 +30,8 @@ This block will turn the car to the right X seconds.
 
 5. Create a ruler with paper and pen to automate robot
     1. Place paper parallel to the robot on the side
-    ![step 1.1](images/step_01_1.jpg "Before running mBot forward 1 second")
-    ![step 1.2](images/step_01_2.jpg "After running mBot forward 1 second")
+    ![step 1.1](images/step_01_1.jpg =x300 "Before running mBot forward 1 second")
+    ![step 1.2](images/step_01_2.jpg =x300 "After running mBot forward 1 second")
     2. Mark with pen the location of the 'eyes' (distance sensor)
     3. Code and run algorithm:
         1. When 'Flag' clicked
