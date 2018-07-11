@@ -7,7 +7,7 @@ In this project you will build your own car robot, you will learn how to code it
 ## Pre-requisites
 1. Download the mblock3 app from [link](http://www.mblock.cc/software/mblock/mblock3/).
 2. Double click on the downloaded file to install it.
-3. Open the instructions to setup your robot [here](0_getting-started-with-mblock.pdf).
+3. Open the instructions to setup your robot [here](../resources/0_getting-started-with-mblock.pdf).
 4. Go to page 7 for instructions to connect the robot to your laptop.
 5. Follow the 4 steps to connect it.
 
@@ -22,11 +22,11 @@ We will code our robot to _listen_ for keys that are pressed in your keyboard to
 
 1. From events, drag 'when space key pressed' to workspace
 2. From robots, drag 'run forward at speed 0' under the 'when space key pressed' block in the workspace  
-<img src="images/3_KeyboardController_img001.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img001.jpg" width="400" alt="The workspace should look like this">
 3. Change 'space' to 'right arrow'
 4. Change 'run forward' to 'turn right'
 5. Change speed '0' to '100'  
-<img src="images/3_KeyboardController_img002.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img002.jpg" width="400" alt="The workspace should look like this">
 
 Try pressing the right arrow in your keyboard. Your robot should start turning now! But... the robot doesn't stop when you stop pressing the right arrow!
 
@@ -39,11 +39,11 @@ We will now code our robot to also _listen_ for when you stop pressing the right
 
 1. From events, drag 'when space key released' to workspace
 2. From robots, drag 'run forward at speed 0' under the 'when space key pressed' block in the workspace
-<img src="images/3_KeyboardController_img003.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img003.jpg" width="400" alt="The workspace should look like this">
 3. Change 'space' to  'right arrow'
 4. Change 'run forward' to 'turn right'
 5. Leave the speed as '0'  
-<img src="images/3_KeyboardController_img004.jpg" width="400" alt="The workspace should look like this.">
+<img src="../images/3_KeyboardController_img004.jpg" width="400" alt="The workspace should look like this.">
 
 
 Try pressing the right arrow in your keyboard.  
