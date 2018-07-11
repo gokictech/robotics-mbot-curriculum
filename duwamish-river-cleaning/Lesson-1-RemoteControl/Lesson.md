@@ -22,11 +22,11 @@ We will code our robot to _listen_ for keys that are pressed in your keyboard to
 
 1. From events, drag 'when space key pressed' to workspace
 2. From robots, drag 'run forward at speed 0' under the 'when space key pressed' block in the workspace  
-<img src="../images/3_KeyboardController_img001.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img001.JPG" width="400" alt="The workspace should look like this">
 3. Change 'space' to 'right arrow'
 4. Change 'run forward' to 'turn right'
 5. Change speed '0' to '100'  
-<img src="../images/3_KeyboardController_img002.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img002.JPG" width="400" alt="The workspace should look like this">
 
 Try pressing the right arrow in your keyboard. Your robot should start turning now! But... the robot doesn't stop when you stop pressing the right arrow!
 
@@ -39,11 +39,11 @@ We will now code our robot to also _listen_ for when you stop pressing the right
 
 1. From events, drag 'when space key released' to workspace
 2. From robots, drag 'run forward at speed 0' under the 'when space key pressed' block in the workspace
-<img src="../images/3_KeyboardController_img003.jpg" width="400" alt="The workspace should look like this">
+<img src="../images/3_KeyboardController_img003.JPG" width="400" alt="The workspace should look like this">
 3. Change 'space' to  'right arrow'
 4. Change 'run forward' to 'turn right'
 5. Leave the speed as '0'  
-<img src="../images/3_KeyboardController_img004.jpg" width="400" alt="The workspace should look like this.">
+<img src="../images/3_KeyboardController_img004.JPG" width="400" alt="The workspace should look like this.">
 
 
 Try pressing the right arrow in your keyboard.  

@@ -28,9 +28,9 @@ On the 'New Block' window,
 4. Click on the icon for "Add label text"
 5. Type "seconds"
 6. Click OK  
-<img src="../images/5_RiverCleaning_img001.jpg" width="400" alt="This block will turn the car to the right X seconds.">
+<img src="../images/5_RiverCleaning_img001.JPG" width="400" alt="This block will turn the car to the right X seconds.">
 7. The new block should now appear on the workspace.  
-<img src="../images/5_RiverCleaning_img002.jpg" width="400" alt="The new block should now appear on the workspace.">
+<img src="../images/5_RiverCleaning_img002.JPG" width="400" alt="The new block should now appear on the workspace.">
 
 Now let's code the new block to move the car forward for X secconds:
 
@@ -38,7 +38,7 @@ Now let's code the new block to move the car forward for X secconds:
 2. Change the speed from '0' to '100'
 3. From Control, drag 'wait 1 secs' under the 'run forward at speed 100' at the workspace
 4. From Robots, drag 'run forward at speed 0' under the 'Wait 1 secs' at the workspace  
-<img src="../images/5_RiverCleaning_img003.jpg" width="400" alt="This is how the Run Forward block should look like.">
+<img src="../images/5_RiverCleaning_img003.JPG" width="400" alt="This is how the Run Forward block should look like.">
 
 ### Create a new block: 'Turn Right X seconds' 
 Data&Blocks -> Make a Block
@@ -49,9 +49,9 @@ Data&Blocks -> Make a Block
 4. Type "seconds"
 5. Click OK
 6. The new block should now appear on the workspace.  
-<img src="../images/5_RiverCleaning_img004.jpg" width="400" alt="The new block should now appear on the workspace.">
+<img src="../images/5_RiverCleaning_img004.JPG" width="400" alt="The new block should now appear on the workspace.">
 7. Drag the new 'Turn Right' block down so all the blocks are easier to see  
-<img src="../images/5_RiverCleaning_img005.jpg" width="400" alt="Now we can see all of our blocks clearly.">
+<img src="../images/5_RiverCleaning_img005.JPG" width="400" alt="Now we can see all of our blocks clearly.">
 
 Now let's code the new block to turn the car right for X secconds:
 
@@ -61,7 +61,7 @@ Now let's code the new block to turn the car right for X secconds:
 4. From Control drag 'wait 1 sec' under the 'turn right' block
 5. From Robots drag 'run forward at speed 0' under the 'wait 1 sec' block
 6. Change 'run forward' to 'turn right'  
-<img src="../images/5_RiverCleaning_img006.jpg" width="400" alt="This is how it should look like.">
+<img src="../images/5_RiverCleaning_img006.JPG" width="400" alt="This is how it should look like.">
 
 ## Let's make a Ruler
 We will make a ruler with pen and paper to help us plan the path to automate our robot. This ruler measures how far the robot will move per second.
