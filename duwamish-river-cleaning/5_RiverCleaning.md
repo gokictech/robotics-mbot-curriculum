@@ -1,24 +1,44 @@
-# Forward Block
+# Summer Project: Cleaning the Duwamish River with Robots
+## Overview
+The Duwamish river has been greatly polluted in the past years by companies and public agencies. Cleaning the river will be dangerous and will take a long time. Let's use our coding and robotics skills to remotely clean the river!  
+
+In this project you will build your own car robot, you will learn how to code it to control it with your laptop as a remote control and finally you will use your robot to clean the Duwamish river.
+
+## Pre-requisites
+
+## Coding 
+
+## Create Run Forward Block
 ### Create new block
+On the Scripts tab,
 Data&Blocks -> Make a Block
 
+On the 'New Block' window,
 1. Type "Run Forward"
-2. Options -> Add number input
-3. Options -> Add label text
-4. Type "seconds"
-5. Click OK
+2. Click on "Options" to show more options
+3. Click on the icon for "Add number input"
+4. Click on the icon for "Add label text"
+5. Type "seconds"
+6. Click OK
 
-This block will move the car forward X seconds.
+The new block should now appear on the workspace.
+
+<img src="images/5_RiverCleaning_img001.jpg" height="400" alt="This block will turn the car to the right X seconds.">
+<img src="images/5_RiverCleaning_img002.jpg" height="400" alt="The new block should now appear on the workspace.">
 
 ### Define the behavior of the new block
-Update 'run forward X sec' block behavior:
+by adding blocks under the new "Run Forward" block
 
-1. Drag block into workspace (if none exists in the workspace)
-2. Drag Robots -> 'run forward' at speed '100' into block
-3. Drag Control -> wait '1' sec
-4. Drag Robots -> 'run forward' at speed '0' into block
+1. From Robots, drag 'run forward at speed 0' under the 'Run Forward' block at the workspace
+2. Change the speed from '0' to '100'
+3. From Control, drag 'wait 1 secs' under the 'run forward at speed 100' at the workspace
+4. From Robots, drag 'run forward at speed 0' under the 'Wait 1 secs' at the workspace
 
-# Turn Right Block
+This block will now move the car forward X seconds!
+
+<img src="images/5_RiverCleaning_img003.jpg" height="400" alt="This is how the Run Forward block should look like.">
+
+## Create Turn Right Block
 ### Create new block
 Data&Blocks -> Make a Block
 
@@ -28,19 +48,28 @@ Data&Blocks -> Make a Block
 4. Type "seconds"
 5. Click OK
 
-This block will turn the car to the right X seconds.
+The new block should now appear on the workspace.
+
+<img src="images/5_RiverCleaning_img004.jpg" height="400" alt="The new block should now appear on the workspace.">
+
+Drag the new 'Turn Right' block down so all the blocks are easier to see
+
+<img src="images/5_RiverCleaning_img005.jpg" height="400" alt="Now we can see all of our blocks clearly.">
 
 ### Define the behavior of the new block
-Update 'Turn Right X sec' block behavior:
 
-1. Drag block into workspace (if none exists in the workspace)
-2. Drag Robots -> 'run forward' at speed '100' into block
-3. Select 'Turn Right'
-4. Drag Control -> wait '1' sec
-2. Drag Robots -> 'run forward' at speed '0' into block
-3. Select 'Turn Right'
+1. From Robots drag 'run forward at speed 0' under the 'Turn Right' block
+2. Change 'run foward' to 'turn right'
+3. Change the speed to '100'
+4. From Control drag 'wait 1 sec' under the 'turn right' block
+5. From Robots drag 'run forward at speed 0' under the 'wait 1 sec' block
+6. Change 'run forward' to 'turn right'
 
-# Ruler
+This block will turn the car to the right X seconds.
+
+<img src="images/5_RiverCleaning_img006.jpg" height="400" alt="This is how it should look like.">
+
+## Ruler
 We will make a ruler with pen and paper to help us plan the path to automate our robot. This ruler measures how far the robot will move per second.
 
 1. Place paper parallel to the robot on the side and mark with pen the location of the 'eyes' (distance sensor)  
@@ -53,7 +82,7 @@ We will make a ruler with pen and paper to help us plan the path to automate our
     <img src="images/step_02_1.jpg" height="400" alt="After running mBot forward 1 second">
     <img src="images/step_02_2.jpg" height="400" alt="After running mBot forward 1 second">
 
-# Circular Ruler
+## Circular Ruler
 We will make a circular ruler with pen and paper to help us plan the path to automate our robot. This circular ruller measures how far the robot will turn per second.
 
 1. Place a small tape in front of the 'eyes' (distance sensor)  
@@ -78,7 +107,7 @@ We will make a circular ruler with pen and paper to help us plan the path to aut
     <img src="images/step_07_3.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_07_4.jpg" height="400" alt="Before running mBot forward 1 second">
 
-# Robot Arm Extension
+## Robot Arm Extension
 1. Roll a large piece of paper thinner than a pen.  
     <img src="images/step_08_1.jpg" height="400" alt="Before running mBot forward 1 second">
     <img src="images/step_08_2.jpg" height="400" alt="Before running mBot forward 1 second">
@@ -87,7 +116,7 @@ We will make a circular ruler with pen and paper to help us plan the path to aut
 2. Twist the paper to make an extended arm.  
     <img src="images/step_08_4.jpg" height="400" alt="Before running mBot forward 1 second">
 
-# Challenge
+## Challenge
 Using only the two new blocks, write an algorithm to push one paper ball out of the river.  
 Use your rulers to plan the path that your robot has to follow to push the paper ball.
 
@@ -113,7 +142,7 @@ Use your rulers to plan the path that your robot has to follow to push the paper
 ### Attempt Examples
 <img src="images/attempt_fail_01.gif" height="400" alt="Before running mBot forward 1 second"><img src="images/attempt_fail_02.gif" height="400" alt="Before running mBot forward 1 second"><img src="images/attempt_fail_03.gif" height="400" alt="Before running mBot forward 1 second"><img src="images/attempt_success_01.gif" height="400" alt="Before running mBot forward 1 second">
 
-# Notes
+## Notes
 We can ease the program by changing the 'turn right' speed to the speed needed to make a 90 degree turn. The speed will depend on the surface friction and the batteries. 
 
 > In a clean surface such as paper, the speed needed was about '60'. 
